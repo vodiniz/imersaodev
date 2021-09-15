@@ -23,6 +23,11 @@ body {
   color: #ffffff;
   margin-top: 5px;
 }
+.output {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 25px;
+}
 
 .page-logo {
   width: 200px;
