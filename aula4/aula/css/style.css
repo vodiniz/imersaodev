@@ -58,6 +58,7 @@ margin: 10px;
   width: 700px ;
   margin-bottom: 30px;
   height: 25px;
+  padding: 5px;
 
 }
 
@@ -67,8 +68,14 @@ margin: 10px;
   height: 25px;
 }
 #submit-button {
-  margin-left: 20px;
-  height: 32px;
-  width: 140px;
+  order: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 6px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
