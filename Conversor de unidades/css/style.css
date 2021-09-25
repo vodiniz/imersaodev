@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+
+body {
+    background: linear-gradient( 70deg, rgb(2, 46, 95) 15.26%, rgb(37, 131, 238) 99%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(231, 231, 231);
+    background-color: rgb(4, 9, 32);
+    border-radius: 15px;
+    margin: 30px;
+    padding: 30px;
+    color: #1c1c1c;
+    box-shadow: 6px 6px 10px black;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    min-width: 400px;
+}
+h1{
+    color: rgb(201, 199, 199);
+    text-align: center;
+    margin: auto;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+    width: 0;
+}
+
+.div-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-left:200px;
+    padding-top: 100px;
+}
+.input{
+
+    width: 230px;
+    height: 35px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgb(243, 243, 243);
+    font-size: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+
+}
+.input input[disabled]{
+    background: white;
+    color: black;
+
+}
+    
+
+
+
+
